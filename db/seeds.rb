@@ -372,6 +372,12 @@ title:"The History of Bitcoin: From Whitepaper to Mainstream Adoption",
 image:"https://images.pexels.com/photos/6780789/pexels-photo-6780789.jpeg?auto=compress&cs=tinysrgb&w=400",
 content:SOME_CONTENT,
 category:"Business"
+},
+{
+title:"The Endangered Turtle Species",
+image:"https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&w=600",
+content:SOME_CONTENT,
+category:"Science"
 }
 ]
   )

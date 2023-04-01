@@ -3,10 +3,6 @@ class UsersController < ApplicationController
   skip_before_action :verify_authenticity_token
   rescue_from ActiveRecord::RecordInvalid, with: :invalid_user_credentials
   rescue_from ActiveRecord::RecordNotFound, with: :user_not_found
-  def index
-    render json: User.all
-  end
-
     #POST /signup
     def create
       user= User.create!(user_params)
