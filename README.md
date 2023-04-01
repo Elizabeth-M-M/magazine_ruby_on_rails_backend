@@ -8,9 +8,9 @@ Elizabeth Mwende Muthusi
 
 ### About
 This is a magazine outlet API.
-It's front end repository is https://github.com/Elizabeth-M-M/magazine-react-front-end
-The front end deployed app is at https://magazine-react-front-end.vercel.app/
-The back end deployed repository is  https://trial1-cksf.onrender.com/articles/1 , an example of getting a specific article
+- It's front end repository is https://github.com/Elizabeth-M-M/magazine-react-front-end
+- The front end deployed app is at https://magazine-react-front-end.vercel.app/
+- The back end deployed repository is  https://trial1-cksf.onrender.com/articles/1 , an example of getting a specific article
 
 #### Setup Requirements
 - Git (to clone the repository)
