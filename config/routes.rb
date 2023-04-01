@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-   post "/signup", to: "users#create"
+  resources :reviews, only: :create
+  resources :articles, only: [:show, :index, :create, :destroy, :update]
+  post "/signup", to: "users#create"
   get "/me", to: "users#show"
+  post "/login/user", to: "sessions#create"
+  post "/login/editor", to: "editors#create"
+  delete "/logout", to: "sessions#destroy"
   get "/users", to: "users#index"
  
   
