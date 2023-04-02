@@ -257,6 +257,9 @@ https://trial1-cksf.onrender.com
 
 - Test the endpoints using Postman with `http://localhost:3000/<endpoint>`
 
+#### Known Bugs
+Currently there is a bug from fetching the deployed API and also cookies in the deployed API. Using one folder for front and backend presents no issue, but seperation of the two presents the issue. The API was deployed on Render, but it takes a long time to respond. Still debugging.
+
 #### Support and contact details
 To make a contribution to the code used or any suggestions, you can click on the contact link and email me your suggestions.
 
