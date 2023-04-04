@@ -11,11 +11,11 @@ class EditorsController < ApplicationController
     end
   end
 
-  # #GET /me/editor
-  #   def show
-  #     editor=Editor.find(session[:editor_id])
-  #     render json: editor
-  #   end
+  #GET /me/editors/:id
+    def show
+      editor=Editor.find(params[:id])
+      render json: editor
+    end
   # #DELETE /logout
   # def destroy
   #   session.delete :editor_id

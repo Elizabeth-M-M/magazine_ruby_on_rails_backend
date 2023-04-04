@@ -10,15 +10,13 @@ class UsersController < ApplicationController
       render json: user
     end
 
-    #GET /me
+    #GET /users/:id
     def show
-      if(session[:user_id])
-        user=User.find(session[:user_id])
+        user=User.find(params[:id])
       render json: user
-      else
-        editor=Editor.find(session[:editor_id])
-      render json: editor
-      end
+      
+      
+     
       
     end
 
